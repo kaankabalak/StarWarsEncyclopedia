@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C30E3411F1D355A0084CB1B /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30E3401F1D355A0084CB1B /* MovieViewController.swift */; };
+		8C30E3431F1D3E310084CB1B /* StarWarsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30E3421F1D3E310084CB1B /* StarWarsModel.swift */; };
+		8C30E3451F1D6D7C0084CB1B /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30E3441F1D6D7C0084CB1B /* PersonDetailViewController.swift */; };
+		8C30E3471F1D8C7C0084CB1B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C30E3461F1D8C7C0084CB1B /* MovieDetailViewController.swift */; };
 		8C3DD10D1F193F2900AE6BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DD10C1F193F2900AE6BF1 /* AppDelegate.swift */; };
-		8C3DD10F1F193F2900AE6BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DD10E1F193F2900AE6BF1 /* ViewController.swift */; };
+		8C3DD10F1F193F2900AE6BF1 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3DD10E1F193F2900AE6BF1 /* PeopleViewController.swift */; };
 		8C3DD1121F193F2900AE6BF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3DD1101F193F2900AE6BF1 /* Main.storyboard */; };
 		8C3DD1141F193F2900AE6BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3DD1131F193F2900AE6BF1 /* Assets.xcassets */; };
 		8C3DD1171F193F2900AE6BF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3DD1151F193F2900AE6BF1 /* LaunchScreen.storyboard */; };
@@ -34,9 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C30E3401F1D355A0084CB1B /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		8C30E3421F1D3E310084CB1B /* StarWarsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsModel.swift; sourceTree = "<group>"; };
+		8C30E3441F1D6D7C0084CB1B /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		8C30E3461F1D8C7C0084CB1B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		8C3DD1091F193F2900AE6BF1 /* StarWarsEncyclopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsEncyclopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3DD10C1F193F2900AE6BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C3DD10E1F193F2900AE6BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8C3DD10E1F193F2900AE6BF1 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		8C3DD1111F193F2900AE6BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C3DD1131F193F2900AE6BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3DD1161F193F2900AE6BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				8C3DD10C1F193F2900AE6BF1 /* AppDelegate.swift */,
-				8C3DD10E1F193F2900AE6BF1 /* ViewController.swift */,
+				8C3DD10E1F193F2900AE6BF1 /* PeopleViewController.swift */,
+				8C30E3441F1D6D7C0084CB1B /* PersonDetailViewController.swift */,
+				8C30E3461F1D8C7C0084CB1B /* MovieDetailViewController.swift */,
 				8C3DD1101F193F2900AE6BF1 /* Main.storyboard */,
+				8C30E3401F1D355A0084CB1B /* MovieViewController.swift */,
+				8C30E3421F1D3E310084CB1B /* StarWarsModel.swift */,
 				8C3DD1131F193F2900AE6BF1 /* Assets.xcassets */,
 				8C3DD1151F193F2900AE6BF1 /* LaunchScreen.storyboard */,
 				8C3DD1181F193F2900AE6BF1 /* Info.plist */,
@@ -262,8 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C3DD10F1F193F2900AE6BF1 /* ViewController.swift in Sources */,
+				8C3DD10F1F193F2900AE6BF1 /* PeopleViewController.swift in Sources */,
 				8C3DD10D1F193F2900AE6BF1 /* AppDelegate.swift in Sources */,
+				8C30E3431F1D3E310084CB1B /* StarWarsModel.swift in Sources */,
+				8C30E3451F1D6D7C0084CB1B /* PersonDetailViewController.swift in Sources */,
+				8C30E3471F1D8C7C0084CB1B /* MovieDetailViewController.swift in Sources */,
+				8C30E3411F1D355A0084CB1B /* MovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +436,7 @@
 				DEVELOPMENT_TEAM = G6RP4M9WGT;
 				INFOPLIST_FILE = StarWarsEncyclopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.RainbowRoad.StarWarsEncyclopedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.RainbowRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,7 +449,7 @@
 				DEVELOPMENT_TEAM = G6RP4M9WGT;
 				INFOPLIST_FILE = StarWarsEncyclopedia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.RainbowRoad.StarWarsEncyclopedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.RainbowRoad;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -516,6 +532,7 @@
 				8C3DD1331F193F2900AE6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C3DD1341F193F2900AE6BF1 /* Build configuration list for PBXNativeTarget "StarWarsEncyclopediaTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +541,7 @@
 				8C3DD1361F193F2900AE6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C3DD1371F193F2900AE6BF1 /* Build configuration list for PBXNativeTarget "StarWarsEncyclopediaUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +550,7 @@
 				8C3DD1391F193F2900AE6BF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
